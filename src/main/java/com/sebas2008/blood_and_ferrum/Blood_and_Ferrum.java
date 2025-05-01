@@ -50,6 +50,10 @@ public class Blood_and_Ferrum {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.C_CROSS);
             event.accept(ModItems.O_CROSS);
+            event.accept(ModItems.COPPER_AND_ZINC);
+            event.accept(ModItems.RAW_LEAD);
+            event.accept(ModItems.BRASS);
+
 
         }
 
