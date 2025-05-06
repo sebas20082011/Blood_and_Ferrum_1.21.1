@@ -26,6 +26,13 @@ public static final RegistryObject<Item> C_CROSS=ITEMS.register
     public static final RegistryObject<Item> BRASS=ITEMS.register
             ("brass", ()-> new Item(new Item.Properties()));
 
+
+    public static final RegistryObject<Item> LEAD=ITEMS.register
+            ("lead", ()-> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> RAW_IRON_COAL=ITEMS.register
+            ("i_coal", ()-> new Item(new Item.Properties()));
+
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

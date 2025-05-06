@@ -52,7 +52,11 @@ public class Blood_and_Ferrum {
             event.accept(ModItems.O_CROSS);
             event.accept(ModItems.COPPER_AND_ZINC);
             event.accept(ModItems.RAW_LEAD);
+            event.accept(ModItems.LEAD);
             event.accept(ModItems.BRASS);
+            event.accept(ModItems.RAW_IRON_COAL);
+
+
 
 
         }
