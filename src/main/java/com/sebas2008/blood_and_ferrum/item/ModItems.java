@@ -39,6 +39,9 @@ public static final RegistryObject<Item> C_CROSS=ITEMS.register
     public static final RegistryObject<Item> ZINC=ITEMS.register
             ("zinc", ()-> new Item(new Item.Properties()));
 
+    public static final RegistryObject<Item> STEEL=ITEMS.register
+            ("steel", ()-> new Item(new Item.Properties()));
+
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

@@ -57,6 +57,8 @@ public class Blood_and_Ferrum {
             event.accept(ModItems.RAW_IRON_COAL);
             event.accept(ModItems.RAW_ZINC);
             event.accept(ModItems.ZINC);
+            event.accept(ModItems.STEEL);
+
 
 
 
