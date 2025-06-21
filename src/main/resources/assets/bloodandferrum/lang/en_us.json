@@ -5,10 +5,11 @@
   "item.bloodandferrum.r_l": "Raw Lead",
   "item.bloodandferrum.brass": "Brass",
   "item.bloodandferrum.lead": "Lead",
-  "item.bloodandferrum.i_coal": "Raw Lead",
+  "item.bloodandferrum.i_coal": "Raw Iron and Coal",
   "item.bloodandferrum.r_zinc": "Raw Zinc",
   "item.bloodandferrum.zinc": " Zinc",
   "item.bloodandferrum.steel": "Steel",
 
-  "block.bloodandferrum.zincore_block": "Raw Zinc Block"
+  "block.bloodandferrum.zincore_block": "Raw Zinc Block",
+  "block.bloodandferrum.leadore_block": "Raw Lead Block"
 }
