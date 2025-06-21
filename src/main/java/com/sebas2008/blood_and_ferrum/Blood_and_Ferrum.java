@@ -1,6 +1,7 @@
 package com.sebas2008.blood_and_ferrum;
 
 import com.mojang.logging.LogUtils;
+import com.sebas2008.blood_and_ferrum.block.ModBlocks;
 import com.sebas2008.blood_and_ferrum.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,6 +36,7 @@ public class Blood_and_Ferrum {
         MinecraftForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -47,7 +49,7 @@ public class Blood_and_Ferrum {
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
 
-        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
+        if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.C_CROSS);
             event.accept(ModItems.O_CROSS);
             event.accept(ModItems.COPPER_AND_ZINC);
@@ -58,12 +60,16 @@ public class Blood_and_Ferrum {
             event.accept(ModItems.RAW_ZINC);
             event.accept(ModItems.ZINC);
             event.accept(ModItems.STEEL);
-
-
-
-
-
         }
+
+            if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+                event.accept(ModBlocks.ZINC_ORE);
+            }
+
+
+
+
+
 
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call
