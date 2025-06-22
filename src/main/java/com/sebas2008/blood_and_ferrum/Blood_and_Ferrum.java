@@ -65,6 +65,8 @@ public class Blood_and_Ferrum {
             if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
                 event.accept(ModBlocks.ZINC_ORE);
                 event.accept(ModBlocks.LEAD_ORE);
+                event.accept(ModBlocks.BRASS_ORE);
+                event.accept(ModBlocks.STEEL_BLOCK);
             }
 
 

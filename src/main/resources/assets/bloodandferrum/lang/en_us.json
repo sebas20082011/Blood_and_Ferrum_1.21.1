@@ -11,5 +11,7 @@
   "item.bloodandferrum.steel": "Steel",
 
   "block.bloodandferrum.zincore_block": "Raw Zinc Block",
-  "block.bloodandferrum.leadore_block": "Raw Lead Block"
+  "block.bloodandferrum.leadore_block": "Raw Lead Block",
+  "block.bloodandferrum.steel_block": "Steel Block",
+  "block.bloodandferrum.brass_block": "Brass Block"
 }
