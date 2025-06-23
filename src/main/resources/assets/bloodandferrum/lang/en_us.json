@@ -13,5 +13,8 @@
   "block.bloodandferrum.zincore_block": "Raw Zinc Block",
   "block.bloodandferrum.leadore_block": "Raw Lead Block",
   "block.bloodandferrum.steel_block": "Steel Block",
-  "block.bloodandferrum.brass_block": "Brass Block"
+  "block.bloodandferrum.brass_block": "Brass Block",
+
+  "creativetab.bloodandferrum.baf_item": "BaF Items",
+  "creativetab.bloodandferrum.baf_block": "BaF Blocks"
 }

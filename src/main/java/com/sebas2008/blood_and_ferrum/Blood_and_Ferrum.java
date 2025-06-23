@@ -2,6 +2,7 @@ package com.sebas2008.blood_and_ferrum;
 
 import com.mojang.logging.LogUtils;
 import com.sebas2008.blood_and_ferrum.block.ModBlocks;
+import com.sebas2008.blood_and_ferrum.item.ModCreativeModTabs;
 import com.sebas2008.blood_and_ferrum.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,6 +36,8 @@ public class Blood_and_Ferrum {
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        ModCreativeModTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
@@ -65,7 +68,7 @@ public class Blood_and_Ferrum {
             if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
                 event.accept(ModBlocks.ZINC_ORE);
                 event.accept(ModBlocks.LEAD_ORE);
-                event.accept(ModBlocks.BRASS_ORE);
+                event.accept(ModBlocks.BRASS_BLOCK);
                 event.accept(ModBlocks.STEEL_BLOCK);
             }
 
