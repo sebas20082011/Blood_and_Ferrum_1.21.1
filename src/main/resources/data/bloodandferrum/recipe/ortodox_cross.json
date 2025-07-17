@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "c_cross",
+  "key": {
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "L": {
+      "item": "minecraft:purple_dye"
+    }
+  },
+  "pattern": [
+    " L ",
+    "XCX",
+    " X "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:c_cross"
+  }
+}
