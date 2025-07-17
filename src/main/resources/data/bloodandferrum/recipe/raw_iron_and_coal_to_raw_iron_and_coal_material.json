@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "i_coal",
+  "ingredients": [
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:raw_iron"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    },
+    {
+      "item": "minecraft:coal"
+    }
+    ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:i_coal"
+  }
+}
