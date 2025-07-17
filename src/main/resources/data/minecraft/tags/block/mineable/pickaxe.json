@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "bloodandferrum:zincore_block",
+    "bloodandferrum:leadore_block",
+    "bloodandferrum:brass_block",
+    "bloodandferrum:steel_block"
+  ]
+}

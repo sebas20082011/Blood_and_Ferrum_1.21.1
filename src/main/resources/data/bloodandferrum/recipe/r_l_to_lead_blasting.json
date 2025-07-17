@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 50,
+  "experience": 1,
+  "group": "lead",
+  "ingredient": {
+    "item": "bloodandferrum:r_l"
+  },
+  "result": {
+    "id": "bloodandferrum:lead"
+  }
+}
