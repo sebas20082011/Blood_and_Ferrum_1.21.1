@@ -1,27 +1,19 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
   "group": "i_coal",
-  "ingredients": [
-    {
+  "key": {
+    "X": {
       "item": "minecraft:raw_iron"
     },
-    {
-      "item": "minecraft:raw_iron"
-    },
-    {
-      "item": "minecraft:raw_iron"
-    },
-    {
-      "item": "minecraft:coal"
-    },
-    {
-      "item": "minecraft:coal"
-    },
-    {
+    "C": {
       "item": "minecraft:coal"
     }
-    ],
+  },
+  "pattern": [
+    "XXC",
+    "XCC"
+  ],
   "result": {
     "count": 1,
     "id": "bloodandferrum:i_coal"
