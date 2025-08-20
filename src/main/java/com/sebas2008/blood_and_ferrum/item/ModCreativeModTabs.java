@@ -28,6 +28,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BRASS.get());
                         pOutput.accept(ModItems.RAW_ZINC.get());
                         pOutput.accept(ModItems.COPPER_AND_ZINC.get());
+                        pOutput.accept(ModItems.POWERED_CRISTIAN_CROSS.get());
 
                     })
 

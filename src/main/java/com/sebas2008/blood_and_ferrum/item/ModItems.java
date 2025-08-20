@@ -1,6 +1,7 @@
 package com.sebas2008.blood_and_ferrum.item;
 
 import com.sebas2008.blood_and_ferrum.Blood_and_Ferrum;
+import com.sebas2008.blood_and_ferrum.item.custom.PoweredCristianCrossItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -41,6 +42,10 @@ public static final RegistryObject<Item> C_CROSS=ITEMS.register
 
     public static final RegistryObject<Item> STEEL=ITEMS.register
             ("steel", ()-> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> POWERED_CRISTIAN_CROSS = ITEMS.register(
+            "p_c_c", () -> new PoweredCristianCrossItem(new Item.Properties().durability(PoweredCristianCrossItem.MAX_USES).stacksTo(1))
+    );
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
