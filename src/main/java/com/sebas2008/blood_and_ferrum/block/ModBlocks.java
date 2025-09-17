@@ -30,6 +30,10 @@ public class ModBlocks {
             () -> new DropExperienceBlock(UniformInt.of(2,4 ),BlockBehaviour.Properties.of()
                     .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
 
+    public static final RegistryObject<Block> RAW_SILVER_ORE  =   registerBlock("silver_ore_block",
+            () -> new DropExperienceBlock(UniformInt.of(2,4 ),BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
     public static final RegistryObject<Block> STEEL_BLOCK  =   registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4).requiresCorrectToolForDrops().sound(SoundType.METAL)));

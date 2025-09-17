@@ -9,12 +9,16 @@
   "item.bloodandferrum.r_zinc": "Raw Zinc",
   "item.bloodandferrum.zinc": " Zinc",
   "item.bloodandferrum.steel": "Steel",
+  "item.bloodandferrum.silver": "Silver",
+  "item.bloodandferrum.r_silver": "Raw Silver",
   "item.bloodandferrum.p_c_c": "Powered Cristian Cross",
+  "item.bloodandferrum.p_o_c": "Powered Cristian Cross",
 
   "block.bloodandferrum.zincore_block": "Raw Zinc Block",
   "block.bloodandferrum.leadore_block": "Raw Lead Block",
   "block.bloodandferrum.steel_block": "Steel Block",
   "block.bloodandferrum.brass_block": "Brass Block",
+  "block.bloodandferrum.silver_ore_block": "Raw silver block",
 
   "creativetab.bloodandferrum.baf_item": "BaF Items",
   "creativetab.bloodandferrum.baf_block": "BaF Blocks"

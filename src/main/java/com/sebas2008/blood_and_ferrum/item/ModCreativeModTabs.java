@@ -28,7 +28,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.BRASS.get());
                         pOutput.accept(ModItems.RAW_ZINC.get());
                         pOutput.accept(ModItems.COPPER_AND_ZINC.get());
+                        pOutput.accept(ModItems.SILVER.get());
+                        pOutput.accept(ModItems.RAW_SILVER.get());
                         pOutput.accept(ModItems.POWERED_CRISTIAN_CROSS.get());
+                        pOutput.accept(ModItems.POWERED_ORTODOX_CROSS.get());
+
 
                     })
 
@@ -44,6 +48,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModBlocks.BRASS_BLOCK.get());
                         pOutput.accept(ModBlocks.LEAD_ORE.get());
                         pOutput.accept(ModBlocks.ZINC_ORE.get());
+                        pOutput.accept(ModBlocks.RAW_SILVER_ORE.get());
 
 
 

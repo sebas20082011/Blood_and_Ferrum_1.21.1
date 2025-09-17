@@ -63,6 +63,8 @@ public class Blood_and_Ferrum {
             event.accept(ModItems.RAW_ZINC);
             event.accept(ModItems.ZINC);
             event.accept(ModItems.STEEL);
+            event.accept(ModItems.SILVER);
+            event.accept(ModItems.RAW_SILVER);
         }
 
             if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
@@ -70,6 +72,7 @@ public class Blood_and_Ferrum {
                 event.accept(ModBlocks.LEAD_ORE);
                 event.accept(ModBlocks.BRASS_BLOCK);
                 event.accept(ModBlocks.STEEL_BLOCK);
+                event.accept(ModBlocks.RAW_SILVER_ORE);
             }
 
 
