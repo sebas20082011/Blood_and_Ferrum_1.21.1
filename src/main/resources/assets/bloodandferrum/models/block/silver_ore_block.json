@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "bloodandferrum:block/leadore_block"
+    "all": "bloodandferrum:block/silver_ore_block"
   }
 }

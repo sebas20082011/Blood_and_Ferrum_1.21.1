@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 1,
+  "group": "zinc",
+  "ingredient": {
+    "item": "bloodandferrum:r_silver"
+  },
+  "result": {
+    "id": "bloodandferrum:silver"
+  }
+}

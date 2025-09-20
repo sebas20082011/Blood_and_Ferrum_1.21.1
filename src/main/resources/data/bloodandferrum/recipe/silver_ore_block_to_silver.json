@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 350,
+  "experience": 1,
+  "group": "zinc",
+  "ingredient": {
+    "item": "bloodandferrum:silver_ore_block"
+  },
+  "result": {
+    "id": "bloodandferrum:silver"
+  }
+}
