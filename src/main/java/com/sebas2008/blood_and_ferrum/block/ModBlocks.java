@@ -36,11 +36,15 @@ public class ModBlocks {
 
     public static final RegistryObject<Block> STEEL_BLOCK  =   registerBlock("steel_block",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
     public static final RegistryObject<Block> BRASS_BLOCK  =   registerBlock("brass_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.COPPER)));
+
+    public static final RegistryObject<Block> SILVER_BLOCK  =   registerBlock("silver_block",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
 private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
     RegistryObject<T> toReturn = BLOCKS.register(name, block);

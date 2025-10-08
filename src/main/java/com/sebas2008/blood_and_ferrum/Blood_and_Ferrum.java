@@ -73,6 +73,7 @@ public class Blood_and_Ferrum {
                 event.accept(ModBlocks.BRASS_BLOCK);
                 event.accept(ModBlocks.STEEL_BLOCK);
                 event.accept(ModBlocks.RAW_SILVER_ORE);
+                event.accept(ModBlocks.SILVER_BLOCK);
             }
 
 
