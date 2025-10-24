@@ -3,6 +3,7 @@
   "values": [
     "bloodandferrum:brass_block",
     "bloodandferrum:steel_block",
-    "bloodandferrum:silver_ore_block"
+    "bloodandferrum:silver_ore_block",
+    "bloodandferrum:silver_block"
   ]
 }
