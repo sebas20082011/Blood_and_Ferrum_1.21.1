@@ -32,6 +32,7 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.RAW_SILVER.get());
                         pOutput.accept(ModItems.POWERED_CRISTIAN_CROSS.get());
                         pOutput.accept(ModItems.POWERED_ORTODOX_CROSS.get());
+                        pOutput.accept(ModItems.DORAYAKI.get());
 
 
                     })

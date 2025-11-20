@@ -65,6 +65,7 @@ public class Blood_and_Ferrum {
             event.accept(ModItems.STEEL);
             event.accept(ModItems.SILVER);
             event.accept(ModItems.RAW_SILVER);
+            event.accept(ModItems.DORAYAKI);
         }
 
             if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
