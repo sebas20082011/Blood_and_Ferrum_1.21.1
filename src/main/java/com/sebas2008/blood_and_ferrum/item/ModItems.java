@@ -60,6 +60,8 @@ public static final RegistryObject<Item> C_CROSS=ITEMS.register
     );
 
     public static final RegistryObject<Item> DORAYAKI = ITEMS.register("dorayaki", () -> new Item(new Item.Properties().food(ModFoodProperties.DORAYAKI)));
+
+
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

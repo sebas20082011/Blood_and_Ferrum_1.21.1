@@ -3,6 +3,7 @@ package com.sebas2008.blood_and_ferrum.block;
 
 import com.sebas2008.blood_and_ferrum.Blood_and_Ferrum;
 import com.sebas2008.blood_and_ferrum.item.ModItems;
+import net.minecraft.client.particle.CritParticle;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -14,7 +15,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
-
+import javax.naming.CompoundName;
 import java.util.function.Supplier;
 
 
@@ -46,7 +47,12 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.NETHERITE_BLOCK)));
 
-private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
+//Just in case given that i tried it and it did not give any errors about Magic_block, maybe they change some things.
+// I hate you Magic Block I hope you burn in hell.
+    public static final RegistryObject<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new Block(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
+
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
     RegistryObject<T> toReturn = BLOCKS.register(name, block);
     registerBlockItem(name, toReturn);
     return toReturn;
