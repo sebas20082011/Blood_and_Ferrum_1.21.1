@@ -34,6 +34,11 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.POWERED_ORTODOX_CROSS.get());
                         pOutput.accept(ModItems.DORAYAKI.get());
 
+                        pOutput.accept(ModItems.YUURI_HELMET.get());
+                        pOutput.accept(ModItems.YUURI_CHESTPLATE.get());
+                        pOutput.accept(ModItems.YUURI_LEGGINGS.get());
+                        pOutput.accept(ModItems.YUURI_BOOTS.get());
+
 
                     })
 
