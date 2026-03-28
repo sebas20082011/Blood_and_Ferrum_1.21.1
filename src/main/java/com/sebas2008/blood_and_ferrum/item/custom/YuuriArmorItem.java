@@ -1,5 +1,6 @@
 package com.sebas2008.blood_and_ferrum.item.custom;
 
+import com.sebas2008.blood_and_ferrum.item.ModItems;
 import com.sebas2008.blood_and_ferrum.item.client.YuuriArmorRenderer;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.core.Holder;
@@ -8,6 +9,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import org.jetbrains.annotations.Nullable;
 import software.bernie.geckolib.animatable.GeoItem;
 import software.bernie.geckolib.animatable.client.GeoRenderProvider;
@@ -20,6 +22,17 @@ import java.util.function.Consumer;
 
 public final class YuuriArmorItem extends ArmorItem implements GeoItem {
     private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
+
+
+    @Override
+    public boolean isValidRepairItem(ItemStack toRepair, ItemStack repair) {
+        return switch (this.getType()) {
+            case HELMET -> repair.is(ModItems.STEEL.get());
+            case CHESTPLATE, LEGGINGS -> repair.is(Items.GREEN_WOOL);
+            case BOOTS -> repair.is(Items.LEATHER);
+            default -> false;
+        };
+    }
 
     public YuuriArmorItem(Holder<ArmorMaterial> armorMaterial, ArmorItem.Type type, Properties properties) {
         super(armorMaterial, type, properties);

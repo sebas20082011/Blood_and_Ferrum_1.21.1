@@ -19,18 +19,12 @@ public final class YuuriArmorRenderer extends GeoArmorRenderer<YuuriArmorItem> {
 
 
 
-        if (this.rightLeg != null) {
-            this.rightLeg.setRotX(-this.rightLeg.getRotX());
+
+        if (baseModel.crouching) {
+            if (this.body != null) {
+                this.body.setRotX(-this.body.getRotX());
+
+            }
         }
-        if (this.leftLeg != null) {
-            this.leftLeg.setRotX(-this.leftLeg.getRotX());
-        }
-        if (this.rightBoot != null) {
-            this.rightBoot.setRotX(-this.rightBoot.getRotX());
-        }
-        if (this.leftBoot != null) {
-            this.leftBoot.setRotX(-this.leftBoot.getRotX());
-        }
-    }
-}
+    }}
 
