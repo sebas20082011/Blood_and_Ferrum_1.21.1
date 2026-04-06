@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "bloodandferrum:item/yuuri_armor"
+    "layer0": "bloodandferrum:item/yuuri_leggings"
   }
 }
