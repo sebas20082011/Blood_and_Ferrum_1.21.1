@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "yuuri_armor",
+  "key": {
+    "A": {
+      "item": "minecraft:green_wool"
+    },
+      "B": {
+        "item": "bloodandferrum:steel"
+      }
+  },
+  "pattern": [
+    "ABA",
+    "AAA",
+    "AAA"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:yuuri_helmet"
+  }
+}

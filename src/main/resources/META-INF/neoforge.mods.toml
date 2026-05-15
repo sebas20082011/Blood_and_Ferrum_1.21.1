@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="${loader_version_range}"
+license="All Rights Reserved"
+
+[[mods]]
+modId="bloodandferrum"
+version="0.0.1"
+displayName="Blood and Ferrum"
+authors="Sebas2008, SB"
+description="A mod that will start from the end of the medieval age to the unification of Germany, it will also include zombies as well as other meme entities (not very serious mod)"
+
+[[dependencies.bloodandferrum]]
+modId="neoforge"
+mandatory=true
+versionRange="[21.1,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.bloodandferrum]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.21,1.21.2)"
+ordering="NONE"
+side="BOTH"

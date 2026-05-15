@@ -3,8 +3,8 @@ package com.sebas2008.blood_and_ferrum.datagen;
 import com.sebas2008.blood_and_ferrum.Blood_and_Ferrum;
 import com.sebas2008.blood_and_ferrum.item.ModItems;
 import net.minecraft.data.PackOutput;
-import net.minecraftforge.client.model.generators.ItemModelProvider;
-import net.minecraftforge.common.data.ExistingFileHelper;
+import net.neoforged.neoforge.client.model.generators.ItemModelProvider;
+import net.neoforged.neoforge.common.data.ExistingFileHelper;
 
 public class ModItemModelProvider extends ItemModelProvider {
     public ModItemModelProvider(PackOutput output, ExistingFileHelper existingFileHelper) {
