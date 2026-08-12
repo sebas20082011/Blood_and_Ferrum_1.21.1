@@ -1,0 +1,4 @@
+// 1.21.1	2025-12-03T12:11:24.7070072	Tags for minecraft:block mod id bloodandferrum
+bf9bb0452f0d9fc907b16c4b743e8d2135c6cf14 data/minecraft/tags/block/mineable/pickaxe.json
+5bb5d3cb88b867e0f77aede82220b793c8fdf6ea data/minecraft/tags/block/needs_iron_tool.json
+e006f5c2b160d6d18bc66f7bdeced643308ef09c data/minecraft/tags/block/needs_stone_tool.json

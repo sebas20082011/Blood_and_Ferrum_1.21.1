@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_zinc": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bloodandferrum:r_zinc"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bloodandferrum:zinc_from_blasting_raw"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_raw_zinc"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bloodandferrum:zinc_from_blasting_raw"
+    ]
+  }
+}

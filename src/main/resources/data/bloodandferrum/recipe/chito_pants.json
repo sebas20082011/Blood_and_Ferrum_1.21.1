@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chito_armor",
+  "key": {
+    "A": {
+      "item": "minecraft:green_wool"
+    },
+    "B": {
+      "item": "bloodandferrum:steel"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "A A",
+    "A A"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:chito_leggings"
+  }
+}

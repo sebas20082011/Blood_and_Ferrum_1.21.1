@@ -14,10 +14,20 @@
   "item.bloodandferrum.p_c_c": "Powered Cristian Cross",
   "item.bloodandferrum.p_o_c": "Powered Cristian Cross",
   "item.bloodandferrum.dorayaki": "Dorayaki",
+  "item.bloodandferrum.45acp": ".45ACP",
+  "item.bloodandferrum.shell_45acp": "Shell of .45ACP",
+  "item.bloodandferrum.point_45acp": "Point of .45ACP",
   "item.bloodandferrum.yuuri_helmet": "Lost Soldier's helmet",
   "item.bloodandferrum.yuuri_boots": "Lost Soldier's boots",
   "item.bloodandferrum.yuuri_chestplate": "Lost Soldier's jacket",
   "item.bloodandferrum.yuuri_leggings": "Lost Soldier's pants",
+
+  "item.bloodandferrum.chito_helmet": "The Reader's helmet",
+  "item.bloodandferrum.chito_boots": "The Reader's boots",
+  "item.bloodandferrum.chito_chestplate": "The Reader's jacket",
+  "item.bloodandferrum.chito_leggings": "The Reader's pants",
+  "item.bloodandferrum.m1911_magazine": "Colt M1911 Magazine",
+  "item.bloodandferrum.m1911_magazine_loaded": "Colt M1911 Magazine Loaded",
 
   "block.bloodandferrum.zincore_block": "Raw Zinc Block",
   "block.bloodandferrum.leadore_block": "Raw Lead Block",
@@ -27,5 +37,12 @@
   "block.bloodandferrum.silver_block": " Silver block",
 
   "creativetab.bloodandferrum.baf_item": "BaF Items",
-  "creativetab.bloodandferrum.baf_block": "BaF Blocks"
+  "creativetab.bloodandferrum.baf_block": "BaF  Blocks ",
+  "creativetab.bloodandferrum.baf_ores": "BaF Ores",
+  "creativetab.bloodandferrum.baf_armor": "BaF Armor",
+  "creativetab.bloodandferrum.baf_ammo_and_magazines": "BaF ammo and magazines",
+
+  "key.bloodandferrum.reload": "Reload Magazine",
+  "effect.bloodandferrum.ingenuity": "Ingenuity",
+  "key.categories.bloodandferrum": "Blood and Ferrum"
 }

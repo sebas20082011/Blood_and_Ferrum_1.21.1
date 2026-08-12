@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_silver_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": "bloodandferrum:silver_ore_block"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bloodandferrum:silver_from_blasting_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_silver_ore"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bloodandferrum:silver_from_blasting_ore"
+    ]
+  }
+}

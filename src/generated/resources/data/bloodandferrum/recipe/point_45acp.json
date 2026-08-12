@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "point_45acp",
+  "key": {
+    "C": {
+      "item": "minecraft:copper_ingot"
+    },
+    "X": {
+      "item": "bloodandferrum:lead"
+    }
+  },
+  "pattern": [
+    " C ",
+    "CXC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:point_45acp"
+  }
+}

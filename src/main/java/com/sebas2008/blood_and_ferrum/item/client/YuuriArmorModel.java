@@ -5,6 +5,7 @@ import com.sebas2008.blood_and_ferrum.item.custom.YuuriArmorItem;
 import net.minecraft.resources.ResourceLocation;
 import software.bernie.geckolib.model.GeoModel;
 
+@SuppressWarnings("deprecation")
 public class YuuriArmorModel extends GeoModel<YuuriArmorItem> {
 
     @Override

@@ -3,7 +3,7 @@ plugins {
     id 'eclipse'
     id 'idea'
     id 'maven-publish'
-    id 'net.neoforged.moddev' version '2.0.73'
+    id 'net.neoforged.moddev' version '2.0.+'
 }
 
 tasks.named('wrapper', Wrapper).configure {
@@ -19,7 +19,6 @@ base {
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(21)
 
-// THIS IS THE NEW BLOCK REQUIRED BY THE MODDEV PLUGIN
 neoForge {
     version = project.neoforge_version
 
@@ -32,6 +31,14 @@ neoForge {
         server {
             server()
             programArgument '--nogui'
+        }
+
+        datagen {
+            data()
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+
+            // ↓ ADD THIS LINE DIRECTLY HERE ↓
+            programArguments.addAll '--mod', project.mod_id, '--all', '--output', file('src/generated/resources/').getAbsolutePath(), '--existing', file('src/main/resources/').getAbsolutePath()
         }
     }
 
@@ -62,10 +69,7 @@ configurations {
 }
 
 dependencies {
-    // The plugin handles the neoforge dependency, but you can keep it for explicit versioning
     implementation "net.neoforged:neoforge:${neoforge_version}"
-
-    // GeckoLib
     implementation "software.bernie.geckolib:geckolib-neoforge-${minecraft_version}:${geckolib_version}"
 }
 

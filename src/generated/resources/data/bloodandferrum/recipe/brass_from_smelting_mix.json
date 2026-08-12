@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 355,
+  "experience": 3.0,
+  "group": "brass",
+  "ingredient": {
+    "item": "bloodandferrum:r_c_zinc"
+  },
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:brass"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "shell_45acp",
+  "key": {
+    "C": {
+      "item": "minecraft:gunpowder"
+    },
+    "X": {
+      "item": "bloodandferrum:brass"
+    }
+  },
+  "pattern": [
+    "XCX",
+    "XXX"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:shell_45acp"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "i_coal",
+  "key": {
+    "C": {
+      "item": "minecraft:coal"
+    },
+    "X": {
+      "item": "minecraft:raw_iron"
+    }
+  },
+  "pattern": [
+    "XXC",
+    "XCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:i_coal"
+  }
+}

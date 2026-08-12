@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "c_cross",
+  "key": {
+    "C": {
+      "item": "minecraft:diamond"
+    },
+    "D": {
+      "item": "minecraft:emerald"
+    },
+    "O": {
+      "item": "minecraft:redstone"
+    },
+    "X": {
+      "item": "minecraft:gold_ingot"
+    },
+    "Z": {
+      "item": "minecraft:lapis_lazuli"
+    }
+  },
+  "pattern": [
+    " X ",
+    "ZCD",
+    " O "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:c_cross"
+  }
+}

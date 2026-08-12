@@ -12,11 +12,11 @@
   },
   "pattern": [
     "ABA",
-    "AAA",
+    "ABA",
     "AAA"
   ],
   "result": {
     "count": 1,
-    "id": "bloodandferrum:yuuri_helmet"
+    "id": "bloodandferrum:yuuri_chestplate"
   }
 }

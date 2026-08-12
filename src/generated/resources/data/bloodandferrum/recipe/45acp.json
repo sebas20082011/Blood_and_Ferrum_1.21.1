@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "point_45acp",
+  "key": {
+    "A": {
+      "item": "bloodandferrum:shell_45acp"
+    },
+    "C": {
+      "item": "bloodandferrum:point_45acp"
+    },
+    "X": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    " C ",
+    " X ",
+    " A "
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:45acp"
+  }
+}

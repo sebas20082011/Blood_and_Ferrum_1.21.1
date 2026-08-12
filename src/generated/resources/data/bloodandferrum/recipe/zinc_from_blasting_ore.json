@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 1.0,
+  "group": "zinc",
+  "ingredient": {
+    "item": "bloodandferrum:zincore_block"
+  },
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:zinc"
+  }
+}

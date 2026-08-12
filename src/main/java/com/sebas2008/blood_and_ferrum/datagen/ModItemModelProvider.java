@@ -29,6 +29,17 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.POWERED_ORTODOX_CROSS.get());
         basicItem(ModItems.LEAD.get());
         basicItem(ModItems.COPPER_AND_ZINC.get());
+        basicItem(ModItems.CHITO_BOOTS.get());
+        basicItem(ModItems.CHITO_LEGGINGS.get());
+        basicItem(ModItems.CHITO_HELMET.get());
+        basicItem(ModItems.CHITO_CHESTPLATE.get());
+        basicItem(ModItems.YUURI_BOOTS.get());
+        basicItem(ModItems.YUURI_LEGGINGS.get());
+        basicItem(ModItems.YUURI_HELMET.get());
+        basicItem(ModItems.YUURI_CHESTPLATE.get());
+        basicItem(ModItems.ACP45.get());
+        basicItem(ModItems.SHELL_45ACP.get());
+        basicItem(ModItems.POINT_45ACP.get());
 
 
         }

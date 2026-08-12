@@ -18,12 +18,21 @@ import java.util.function.Supplier;
 public class ModArmorMaterials {
     public static final Holder<ArmorMaterial> YUURI_ARMOR = register("yuuri_armor", Util.make(new EnumMap<>(ArmorItem.Type.class),
             attribute -> {
-                attribute.put(ArmorItem.Type.BOOTS, 5);
-                attribute.put(ArmorItem.Type.LEGGINGS, 7);
-                attribute.put(ArmorItem.Type.CHESTPLATE, 9);
-                attribute.put(ArmorItem.Type.HELMET, 5);
+                attribute.put(ArmorItem.Type.BOOTS, 3);
+                attribute.put(ArmorItem.Type.LEGGINGS, 6);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 8);
+                attribute.put(ArmorItem.Type.HELMET, 3);
+                attribute.put(ArmorItem.Type.BODY, 11);
+            }), 10, 1, 0, () -> ModItems.STEEL.get());
+    public static final Holder<ArmorMaterial> CHITO_ARMOR = register("chito_armor", Util.make(new EnumMap<>(ArmorItem.Type.class),
+            attribute -> {
+                attribute.put(ArmorItem.Type.BOOTS, 3);
+                attribute.put(ArmorItem.Type.LEGGINGS, 6);
+                attribute.put(ArmorItem.Type.CHESTPLATE, 8);
+                attribute.put(ArmorItem.Type.HELMET, 3);
                 attribute.put(ArmorItem.Type.BODY, 11);
             }), 15, 1, 0, () -> ModItems.STEEL.get());
+
 
 
 

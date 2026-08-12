@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "r_c_zinc",
+  "key": {
+    "C": {
+      "item": "bloodandferrum:zinc"
+    },
+    "X": {
+      "item": "minecraft:copper_ingot"
+    }
+  },
+  "pattern": [
+    "XXC",
+    "XCC"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:r_c_zinc"
+  }
+}
