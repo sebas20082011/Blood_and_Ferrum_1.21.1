@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chito_armor",
+  "key": {
+    "A": {
+      "item": "bloodandferrum:steel"
+    },
+    "B": {
+      "item": "minecraft:string"
+    }
+  },
+  "pattern": [
+    " A ",
+    "AAA",
+    "B B"
+  ],
+  "result": {
+    "count": 1,
+    "id": "bloodandferrum:chito_helmet"
+  }
+}
